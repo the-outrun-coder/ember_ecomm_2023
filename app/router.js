@@ -10,4 +10,5 @@ Router.map(function () {
   this.route('clothes', function () {
     this.route('shirts');
   });
+  this.route('item', { path: '/item/:item_id' });
 });
