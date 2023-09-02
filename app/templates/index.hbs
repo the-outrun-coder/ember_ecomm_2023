@@ -1,4 +1,10 @@
-{{page-title "Index"}}
+{{page-title "Welcome"}}
+
+<LinkTo @route="cart">
+  Cart
+  {{!-- FIX - Bootstrap Icons are not loading --}}
+  {{!-- <i class="bi bi-cart"></i> --}}
+</LinkTo>
 
 <main class="container mt-5">
   <LinkTo @route="item" @model="1">Product 1</LinkTo>
